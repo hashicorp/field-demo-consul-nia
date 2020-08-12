@@ -2,4 +2,29 @@ version: "2"
 virtualmachines:
 - name: consul
   image: instruqt-hashicorp/consul-1-8-0
+  shell: /bin/bash
+  machine_type: n1-standard-1
+- name: frontend
+  image: instruqt-hashicorp/consul-1-8-0
+  shell: /bin/bash
+  machine_type: n1-standard-1
+- name: public1
+  image: instruqt-hashicorp/consul-1-8-0
+  shell: /bin/bash
+  machine_type: n1-standard-1
+- name: public2
+  image: instruqt-hashicorp/consul-1-8-0
+  shell: /bin/bash
+  machine_type: n1-standard-1
+- name: public3
+  image: instruqt-hashicorp/consul-1-8-0
+  shell: /bin/bash
+  machine_type: n1-standard-1
+- name: postgres
+  image: instruqt-hashicorp/consul-1-8-0
+  shell: /bin/bash
+  machine_type: n1-standard-1
+- name: product
+  image: instruqt-hashicorp/consul-1-8-0
+  shell: /bin/bash
   machine_type: n1-standard-1

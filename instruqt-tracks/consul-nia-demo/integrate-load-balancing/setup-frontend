@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#ct
+wget https://releases.hashicorp.com/consul-template/0.22.0/consul-template_0.22.0_linux_amd64.tgz -O /tmp/consul-template.tgz
+cd /usr/local/bin/
+tar -zxvf /tmp/consul-template.tgz
+chmod +x /usr/local/bin/consul-template
