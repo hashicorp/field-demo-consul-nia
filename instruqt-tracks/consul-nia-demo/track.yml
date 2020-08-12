@@ -1,0 +1,52 @@
+slug: consul-nia-demo
+id: z4j8xv119kb2
+version: 0.0.1
+type: track
+title: Consul NIA Demo
+teaser: test
+description: test
+icon: ""
+tags: []
+owner: hashicorp
+developers:
+- lance@hashicorp.com
+private: true
+published: false
+challenges:
+- slug: deploy-application
+  id: xef9kxeyjqxb
+  type: challenge
+  title: Deploy Application
+  teaser: test
+  assignment: test
+  tabs:
+  - title: terminal
+    type: terminal
+    hostname: consul
+  difficulty: basic
+  timelimit: 500
+- slug: deploy-consul
+  id: uo0nmfzqwa0k
+  type: challenge
+  title: Deploy Consul
+  teaser: test
+  assignment: test
+  difficulty: basic
+  timelimit: 500
+- slug: integrate-load-balancing
+  id: i6mphljqvryr
+  type: challenge
+  title: Integrate Load Balancing
+  teaser: test
+  assignment: test
+  difficulty: basic
+  timelimit: 500
+- slug: scale-the-app
+  id: gtyv8frpywol
+  type: challenge
+  title: Scale the App
+  teaser: test
+  assignment: test
+  difficulty: basic
+  timelimit: 500
+checksum: "7074693555788329609"
